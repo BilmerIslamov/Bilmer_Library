@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "link": "/navigation/showcode",
+        "title": "ShowCode",
+        "data-id": "page_1"
+    },
+    {
+        "id": 2,
+        "link": "/navigation/docs",
+        "title": "Docs",
+        "data-id": "page_2"
+    },
+    {
+        "id": 3,
+        "link": "/navigation/libraries",
+        "title": "Libraries",
+        "data-id": "page_3"
+    },
+    {
+        "id": 4,
+        "link": "/navigation/tutorials",
+        "title": "Tutorials",
+        "data-id": "page_4"
+    },
+    {
+        "id": 5,
+        "link": "/navigation/templates",
+        "title": "Templates",
+        "data-id": "page_5"
+    }
+]

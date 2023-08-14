@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'bauhaus-93-regular';
+    src: url(../fonts/BAUHS93.TTF);
+}
+.main{
+    margin-top: 150px;
+    &-blog{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+        height: 650px;
+        // border: 1px solid #000;
+    }
+    &-logo-group{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:15px;
+        width: 100%;
+        
+    }
+    &__image{
+        filter: drop-shadow(0px 0px 3px #6020A9);
+        width: 170px;
+        height: 170px;
+        
+    }
+    &-logo-title{
+        font-family: 'bauhaus-93-regular', sans-serif ;
+        font-weight: 400;
+        letter-spacing: 5px;
+        font-size: 75px;
+        color: #000;
+        transition: 0.4s;
+        text-align: center;
+        width: 80%;
+        text-transform: capitalize;
+        
+    }
+    
+    &-logo-span{
+        width:100%;
+        border: 1px solid #6020A9;
+        opacity:0.3;
+        
+    }
+    &-logo-text{
+        width: 55%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 22px;
+        color: #555;
+        line-height: 40px;
+        letter-spacing: 2px;
+    }
+    &-brand-title{
+        font-family: 'bauhaus-93-regular', sans-serif ;
+        font-weight: 400;
+        color: #6020A9;
+    }
+    
+    &-logo-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 90px;
+        width: 50%;
+        margin-top: 15px;
+    }
+    &-logo-item{
+        font-family: 'bauhaus-93-regular', sans-serif ;
+        font-weight: 400;
+        font-size: 18px;
+        color: #6020A9;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+    }
+    &-logo-list-span{
+        height: 100px;
+        border: 1px solid #6020A9;
+        opacity:0.3;
+    }
+    
+    &-type-error{
+        width: 80%;
+        height: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #6020A9;
+        opacity:0.3;
+        margin: 0 auto;
+        position: relative;
+        &::after{
+            content: '';
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px dotted #6020a9;
+            opacity: 1;
+            position: absolute;
+            left: -50px;
+            border-left-width: 0;
+            border-bottom-width: 0;
+            
+        }
+    }
+}
+
+.blogTwo{
+    margin-top: 170px;
+    
+    
+    
+    &-main-title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    &-title{
+        font-weight: 700;
+        font-size: 32px;
+        color: #000;
+        text-transform: capitalize;
+        
+        
+    }
+    
+    &-span-title{
+        font-family: 'bauhaus-93-regular', sans-serif ;
+        font-weight: 400;
+        color: #6020A9;
+    }
+    
+    
+    &-content{
+        margin-top: 30px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    &-content-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:25px;
+    }
+    &-content-item{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 350px;
+        height: 250px;
+        box-shadow: inset 0px 1px 20px #6020a936;
+        // 13px 7px 20px rgba(0,0,0,0.05),
+        // 25px 30px 30px rgba(0,0,0,0.05),
+        // inset -20px -20px 25px rgba(255,255,255, 0.9);
+        // border: 1px solid #6020a994;
+        // box-shadow: 0px 1px 5px  #6020a9;
+        border-radius: 25px;
+        padding: 25px;
+        transition: 0.4s;
+        position: relative;
+        
+        &:hover{
+            transform: scale(1.07);
+            cursor: pointer;
+        }
+        
+        &:active{
+            cursor: progress;
+        }
+        
+        
+        &-title{
+            font-weight: 600;
+            font-size: 22px;
+            text-align: center;
+            color: #000;
+            text-transform: capitalize;
+            margin: 0 auto;
+            letter-spacing: 2px;
+            margin-top: 60px;
+            
+            &-span{
+                font-family: 'bauhaus-93-regular', sans-serif ;
+                font-weight: 400;
+                color: #6020A9;
+                text-transform: capitalize;
+                // display: flex;
+                // align-items: center;
+                // justify-content: center;
+                
+                &-icon{
+                    margin-bottom: -4px;
+                }
+            }
+        }
+        &-link{
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            font-size: 18px;
+            transition: 0.4s;
+            color: #6020a9;
+        }
+        
+    }
+}
+
+.getStated{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
